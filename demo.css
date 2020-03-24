@@ -461,6 +461,12 @@
   .content .twentyone .fivey i{
     display: none;
   }
+  .content .three div{
+    min-height: 350px;
+  }
+  .content .four div{
+    min-height: 350px;
+  }
 }
 @media (max-width: 515px){
   .content .twentyone .threey h5{
@@ -473,11 +479,5 @@
   }
   .content .four{
     grid-column: 1/13;
-  }
-  .content .three div{
-    min-height: 330px;
-  }
-  .content .four div{
-    min-height: 330px;
   }
 }
